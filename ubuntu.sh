@@ -1,5 +1,5 @@
 clear
-printf "This Project is distributed under the Lisence GPLv3 by MFDGaming\n"
+printf "This Project is distributed under the Lisence Project Zero Days\n"
 apk add bash
 apk add wget
 apk add tar
@@ -83,7 +83,7 @@ INSTP1
 elif [ "$1" = "-Y" ];then
 INSTP1
 elif [ "$1" = "" ];then
-printf "Do you want to install ubuntu-in-termux? [Y/n] "
+printf "Do you want to install ubuntu-in-ish? [Y/n] "
 
 read CMDI
 if [ "$CMDI" = "y" ];then
